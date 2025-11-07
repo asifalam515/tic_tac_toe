@@ -1,11 +1,11 @@
 import React from "react";
-import Square from "./Square";
+import Board from "./Board";
 
 const App = () => {
   return (
     <div>
       <h1 className="text-3xl font-bold underline">Tic Tac Toe</h1>
-      <Square></Square>
+      <Board></Board>
     </div>
   );
 };
